@@ -1,0 +1,33 @@
+.station {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid #404244;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.stationHead {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 15px;
+  font-size: 18px;
+  height: 50px;
+}
+.details {
+  width: auto;
+  height: 200px;
+}
+.hideDetails {
+  display: none;
+}
+
+.station:hover {
+  cursor: pointer;
+}
+.station:last-child {
+  border: none;
+}

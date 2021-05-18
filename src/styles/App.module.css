@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  background-color: #2d2d38;
+  overflow: hidden;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0 45px 25px -25px #15151c;
+}

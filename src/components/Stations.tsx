@@ -18,10 +18,10 @@ export default function Stations() {
   }, [stations]);
 
   return (
-    <div>
+    <main>
       {stations.map((station) => (
         <Station data={station} />
       ))}
-    </div>
+    </main>
   );
 }
