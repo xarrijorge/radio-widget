@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Accordion from './Accordion';
+import Station from './Station';
 import axios from 'axios';
 import styles from '../styles/stations.module.css';
 
@@ -19,9 +19,7 @@ export default function Stations() {
 
   return (
     <main className={styles.main}>
-      {stations.map((station, index) => (
-        <Accordion index={index} item={station} />
-      ))}
+      <Station />
     </main>
   );
 }
