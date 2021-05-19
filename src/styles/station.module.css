@@ -1,10 +1,9 @@
 .station {
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   border-bottom: 1px solid #404244;
-  margin: 0 auto;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
 }
@@ -12,21 +11,20 @@
 .stationHead {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  margin: 0 15px;
+  align-items: center;
+  margin: 0.5px 15px;
   font-size: 18px;
-  height: 50px;
+  height: 60px;
+  /* border: 1px solid red; */
 }
 .details {
   width: auto;
   height: 200px;
 }
-.hideDetails {
-  display: none;
-}
 
 .station:hover {
   cursor: pointer;
+  background-color: #1d1d28;
 }
 .station:last-child {
   border: none;

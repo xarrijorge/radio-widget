@@ -1,26 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import Station from './Station';
+import Accordion from './Accordion';
 import axios from 'axios';
+import styles from '../styles/stations.module.css';
 
 export default function Stations() {
   const [stations, setStations] = useState([]);
 
   const getData = async () => {
-    await axios
-      .get('http://localhost:3001/stations')
-      .then((res) => res.data)
-      .then((data) => setStations(data));
+    const result = await axios.get('http://localhost:3001/stations');
+    setStations(result.data);
+    return result.data;
   };
 
   useEffect(() => {
     getData();
     console.log(stations);
-  }, [stations]);
+  }, []);
 
   return (
-    <main>
-      {stations.map((station) => (
-        <Station data={station} />
+    <main className={styles.main}>
+      {stations.map((station, index) => (
+        <Accordion index={index} item={station} />
       ))}
     </main>
   );
