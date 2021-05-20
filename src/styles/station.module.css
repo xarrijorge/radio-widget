@@ -1,3 +1,10 @@
+.main {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y proximity;
+}
+
 .station {
   width: 90%;
   display: flex;
@@ -8,7 +15,6 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
 }
-
 .stationHead {
   display: flex;
   justify-content: space-between;
@@ -20,16 +26,17 @@
 }
 .details {
   width: auto;
-  height: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border-top: 1px solid #404244;
+  height: 200px;
 }
 .logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  border: 2px solid #fff;
 }
 
 .icon {

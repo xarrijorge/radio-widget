@@ -6,17 +6,17 @@
   flex-direction: column;
   justify-content: center;
   margin-top: auto;
-  text-transform: uppercase;
   background-color: #22222b;
   border-top: 1px solid #404244;
 }
 
 .playText {
   color: #edad61;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .stationName {
-  font-size: 25px;
+  font-size: 24px;
 }

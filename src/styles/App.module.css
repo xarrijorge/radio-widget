@@ -9,3 +9,10 @@
   border: none;
   box-shadow: 0 45px 25px -25px #15151c;
 }
+
+@media (max-width: 800px) {
+  .main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
