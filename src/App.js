@@ -33,7 +33,7 @@ const App = () => {
   useEffect(() => {
     getData();
     console.log(process.env.NODE_ENV);
-  }, []);
+  }, [getData]);
 
   return (
     <div className={styles.main}>
