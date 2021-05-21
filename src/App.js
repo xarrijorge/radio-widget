@@ -13,7 +13,7 @@ const App = () => {
   const URI =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3001/stations'
-      : 'http://my-json-server.typicode.com/xarrijorge/radio-widget/stations';
+      : 'https://my-json-server.typicode.com/xarrijorge/radio-widget/stations';
 
   const getData = async () => {
     const result = await axios.get(URI);
