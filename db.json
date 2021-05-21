@@ -4,38 +4,38 @@
       "id": 6,
       "name": "Anime Radio",
       "frequency": 107.5,
-      "logo": "./src/images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/anime.png"
     },
 
     {
       "id": 1,
       "name": "Putin FM",
       "frequency": 66.6,
-      "logo": "../images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/putin.webp"
     },
     {
       "id": 2,
       "name": "Dribble FM",
       "frequency": 101.2,
-      "logo": "../images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/dribble.webp"
     },
     {
       "id": 3,
       "name": "Doge FM",
       "frequency": 99.4,
-      "logo": "../images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/doge.png"
     },
     {
       "id": 4,
       "name": "Ballads FM",
       "frequency": 87.1,
-      "logo": "../images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/ballads.png"
     },
     {
       "id": 5,
       "name": "Maximum FM",
       "frequency": 142.2,
-      "logo": "../images/albumArt.png"
+      "logo": "https://raw.githubusercontent.com/xarrijorge/radio-widget/main/src/images/maximum.png"
     }
   ]
 }

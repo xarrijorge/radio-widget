@@ -19,7 +19,7 @@ const Stations = ({ stations, toggle, clicked }) => {
                 <Button>
                   <img src={Minus} alt="" className={styles.icon} />
                 </Button>
-                <img src={item.logo} alt="" className={styles.logo} />
+                <img src={`${item.logo}`} alt="" className={styles.logo} />
                 <Button>
                   <img src={Plus} alt="" className={styles.icon} />
                 </Button>
