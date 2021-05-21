@@ -12,7 +12,7 @@ const App = () => {
 
   const URI =
     process.env.NODE_ENV === 'development'
-      ? 'https://localhost:3001/stations'
+      ? 'http://localhost:3001/stations'
       : 'http://my-json-server.typicode.com/xarrijorge/radio-widget/stations';
 
   const getData = async () => {
@@ -32,6 +32,7 @@ const App = () => {
 
   useEffect(() => {
     getData();
+    console.log(process.env.NODE_ENV);
   }, []);
 
   return (
