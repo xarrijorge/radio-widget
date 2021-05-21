@@ -21,7 +21,6 @@ const App = () => {
     return result.data;
   };
   const toggle = (index) => {
-    console.log(index);
     if (clicked === index) {
       //if clicked question is already active, then close it
       return setClicked(null);

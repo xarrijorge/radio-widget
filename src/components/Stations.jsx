@@ -3,7 +3,6 @@ import Button from './button';
 import styles from '../styles/station.module.css';
 import Minus from '../images/icons/minus.png';
 import Plus from '../images/icons/plus.png';
-import Logo from '../images/albumArt.png';
 
 const Stations = ({ stations, toggle, clicked }) => {
   return (
@@ -20,7 +19,7 @@ const Stations = ({ stations, toggle, clicked }) => {
                 <Button>
                   <img src={Minus} alt="" className={styles.icon} />
                 </Button>
-                <img src={Logo} alt="" className={styles.logo} />
+                <img src={item.logo} alt="" className={styles.logo} />
                 <Button>
                   <img src={Plus} alt="" className={styles.icon} />
                 </Button>
