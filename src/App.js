@@ -10,8 +10,13 @@ const App = () => {
   const [clicked, setClicked] = useState(false);
   const [stationName, setStationName] = useState('');
 
+  const URI =
+    process.env.NODE_ENV === 'development'
+      ? 'https://localhost:3001/stations'
+      : 'http://my-json-server.typicode.com/xarrijorge/radio-widget/stations';
+
   const getData = async () => {
-    const result = await axios.get('http://localhost:3001/stations');
+    const result = await axios.get(URI);
     setStations(result.data);
     return result.data;
   };
