@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from './Button';
 import BackArrow from '../images/icons/back-arrow.png';
 import Switch from '../images/icons/switch.png';

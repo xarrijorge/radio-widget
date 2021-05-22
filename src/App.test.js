@@ -1,9 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
+// import idObj from 'identity-obj-proxy';
 
-test('renders App component', () => {
+test('renders Header component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Stations/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerElement = screen.getByText('Stations');
+  expect(headerElement).toBeInTheDocument();
 });
