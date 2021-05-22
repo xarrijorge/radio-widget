@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from './button';
+import Button from './Button';
 import BackArrow from '../images/icons/back-arrow.png';
 import Switch from '../images/icons/switch.png';
 
 import styles from '../styles/header.module.css';
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <Button>

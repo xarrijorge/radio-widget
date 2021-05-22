@@ -1,10 +1,19 @@
 import React from 'react';
-import Button from './button';
+import Station from './interfaces/station';
+import Button from './Button';
 import styles from '../styles/station.module.css';
 import Minus from '../images/icons/minus.png';
 import Plus from '../images/icons/plus.png';
 
-const Stations = ({ stations, toggle, clicked }) => {
+const Stations = ({
+  stations,
+  toggle,
+  clicked,
+}: {
+  stations: Station[];
+  toggle: Function;
+  clicked: any;
+}): JSX.Element => {
   return (
     <div className={styles.main}>
       {stations.map((item, index) => {
